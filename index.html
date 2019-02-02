@@ -30,12 +30,10 @@ s" type="text/css" rel="stylesheet"/>
     <!-- use the Okta widget to power authentication! -->
 <script type="text/javascript">
   var oktaSignIn = new OktaSignIn({
-    baseUrl: "{
-https://purple-gorilla.herokuapp.com/}}",
+    baseUrl: "{{https://purple-gorilla.herokuapp.com/}}",
     clientId: "{{0oaj83ibiyeCNm2GU0h7}}",
     authParams: {
-      issuer: "{
-https://purple-gorilla.herokuapp.com/}}/oauth2/default",
+      issuer: "{{https://purple-gorilla.herokuapp.com/}}/oauth2/default",
       responseType: ["token", "id_token"],
       display: "page"
     }
